@@ -8,7 +8,7 @@
 .wrap {
   width: 100vw;
   height: 100vh;
-  background-color: rgb(31, 33, 35);
+  background-color: #f3f3f3;
 }
 .header {
   width: 100%;
@@ -71,4 +71,23 @@
 }
 .date {
   display: inline;
+}
+.middle {
+  width: 1000px;
+  height: 500px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.left {
+  width: 60%;
+  height: 100%;
+  background-color: antiquewhite;
+  overflow: auto;
+}
+.right {
+  margin-left: 15px;
+  width: 40%;
+  height: 100%;
+  background-color: antiquewhite;
 }
