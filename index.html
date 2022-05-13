@@ -18,7 +18,7 @@
         <div class="welcome">Login in to get started</div>
         <div class="logo"><img src="./img/logo.png" alt="" /></div>
         <div class="login_input">
-          <input placeholder="uses" type="text" class="input input_use" />
+          <input placeholder="uses" type="text" class="input input_user" />
           <input placeholder="PIN" type="text" class="input input_pin" />
           <div class="submitBtn ti-arrow-right"></div>
         </div>
@@ -34,14 +34,118 @@
                 <div class="date">5/11/2022</div>
               </div>
             </div>
-            <div class="balance_value">99999</div>
+            <div class="balance_value">$11,720.00</div>
           </div>
           <div class="middle">
-            <div class="left"></div>
-            <div class="right"></div>
+            <div class="left">
+              <!-- <div class="movement_row">
+                <div class="movement_row_inside">
+                  <div class="type_movement">8 WITHDRAWAL</div>
+                  <div class="date_movement">5/12/2022</div>
+                  <div class="value_movement">$8,500.00</div>
+                </div>
+              </div>
+              <div class="movement_row">
+                <div class="movement_row_inside">
+                  <div class="type_movement">8 WITHDRAWAL</div>
+                  <div class="date_movement">5/12/2022</div>
+                  <div class="value_movement">$8,500.00</div>
+                </div>
+              </div> -->
+            </div>
+            <div class="right">
+              <div class="right_box transfer_money">
+                <div class="operation operation_money">
+                  <h2>Transfer money</h2>
+                  <div class="form form_transfer">
+                    <div class="mini_box transfer_to">
+                      <input
+                        type="text"
+                        class="mini_box_input input_transfer_to_money"
+                      />
+                      <label for="">Transfer to</label>
+                    </div>
+
+                    <div class="mini_box amount">
+                      <input
+                        type="text"
+                        class="mini_box_input input_amount_money"
+                      />
+                      <label for="">Amount</label>
+                    </div>
+                    <button
+                      class="mini_box btn_right btn_money ti-arrow-right"
+                    ></button>
+                  </div>
+                </div>
+              </div>
+              <div class="right_box request_loan">
+                <div class="operation operation_loan">
+                  <h2>Request loan</h2>
+                  <div class="form form_loan">
+                    <div class="mini_box amount_loan">
+                      <input
+                        type="text"
+                        class="mini_box_input input_amount_loan"
+                      />
+                      <label for="">Amount</label>
+                    </div>
+                    <button
+                      class="mini_box btn_right btn_loan ti-arrow-right"
+                    ></button>
+                  </div>
+                </div>
+              </div>
+              <div class="right_box close_account">
+                <div class="operation operation_close">
+                  <h2>Close account</h2>
+                  <div class="form form_close">
+                    <div class="mini_box confirm_user">
+                      <input
+                        type="text"
+                        class="mini_box_input input_confirm_user"
+                      />
+                      <label for="">Confirm user</label>
+                    </div>
+
+                    <div class="mini_box confirm_PIN">
+                      <input
+                        type="text"
+                        class="mini_box_input input_confirm_PIN"
+                      />
+                      <label for="">Confirm PIN</label>
+                    </div>
+                    <button
+                      class="mini_box btn_right btn_close ti-arrow-right"
+                    ></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bottom">
+            <div class="bottom_left">
+              <lable class="bottom_lable"
+                ><p>IN</p>
+                <div class="bottom-lable-in bottom_value">$16,900.00</div>
+              </lable>
+              <lable class="bottom_lable"
+                ><p>OUT</p>
+                <div class="bottom-lable-out bottom_value">$5,180.00</div>
+              </lable>
+              <lable class="bottom_lable"
+                ><p>INTEREST</p>
+                <div class="bottom-lable-interest bottom_value">$253.50</div>
+              </lable>
+              <button class="btn_sort ti-arrow-down">SORT</button>
+            </div>
+            <div class="bottom-right">
+              <div class="logout_time">You will be logged out in</div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>

@@ -68,6 +68,7 @@
 }
 .balance_value {
   font-size: 45px;
+  font-weight: 1000;
 }
 .date {
   display: inline;
@@ -75,19 +76,169 @@
 .middle {
   width: 1000px;
   height: 500px;
+  font-family: inherit;
   margin-top: 30px;
   display: flex;
   justify-content: center;
 }
 .left {
-  width: 60%;
+  width: 56%;
   height: 100%;
-  background-color: antiquewhite;
+  border-top-left-radius: 11px;
+  background-color: inherit;
   overflow: auto;
 }
+.movement_row {
+  width: 100%;
+  height: 70px;
+  border-bottom: 3px solid #f3f3f3;
+  background-color: black;
+}
+.movement_row_inside {
+  padding: 25px 40px;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  /* display: flex; */
+}
+.type_movement {
+  padding: 2px 15px;
+  display: inline;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 11px;
+  color: white;
+  font-weight: 1000;
+
+  float: left;
+  /* background: linear-gradient(to top left, #e52a5a, #ff585f); */
+  border-radius: 11px;
+}
+.type_movement_withdrawal {
+  background: linear-gradient(to top left, #e52a5a, #ff585f);
+}
+.type_movement_deposit {
+  background: linear-gradient(to top left, #39b385, #9be15d);
+}
+.date_movement {
+  width: 58px;
+  height: 19px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+  color: #666666;
+  font-weight: 1000;
+  float: left;
+  margin-left: 20px;
+  background-color: #fff;
+}
+.value_movement {
+  width: 67px;
+  height: 26px;
+  font-weight: 1000;
+  float: right;
+  background-color: #fff;
+}
+
 .right {
   margin-left: 15px;
-  width: 40%;
+  width: 44%;
   height: 100%;
-  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: inherit;
+}
+.operation {
+  padding: 1rem 2rem;
+}
+.right_box {
+  width: 100%;
+  height: 30%;
+
+  border-radius: 11px;
+}
+.transfer_money {
+  background: linear-gradient(to top left, #ffb003, #ffcb03);
+}
+.request_loan {
+  background: linear-gradient(to top left, #39b385, #9be15d);
+}
+.close_account {
+  background: linear-gradient(to top left, #e52a5a, #ff585f);
+}
+.form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.mini_box {
+  width: 130px;
+  height: 32px;
+  margin: 15px 10px;
+  text-align: center;
+  /* background-color: #666666; */
+}
+.mini_box_input {
+  width: 140px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.4);
+  font-weight: 900;
+  border: none;
+  border-radius: 8px;
+}
+.btn_right {
+  width: 55px;
+  background-color: white;
+  border: none;
+  border-radius: 11px;
+}
+.bottom {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.bottom_left {
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.bottom_lable {
+  display: flex;
+  /* align-items: flex-end; */
+  font-weight: 800;
+}
+p {
+  margin-right: 5px;
+  display: flex;
+  align-items: flex-end;
+}
+.bottom-lable-in {
+  color: #66c873;
+}
+.bottom-lable-out {
+  color: #f5465d;
+}
+.bottom-lable-interest {
+  color: #66c873;
+}
+.bottom_value {
+  font-size: 1.5rem;
+  display: flex;
+}
+.btn_sort {
+  display: flex;
+  align-items: flex-start;
+  border: none;
+  transform: translateY(-70%);
+  background-color: inherit;
+  cursor: pointer;
 }
